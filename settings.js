@@ -1,0 +1,16 @@
+const settings = {
+  packname: 'Dev shadow-md Bot',
+  author: '‎',
+  botName: "Dev shadow-md Bot",
+  botOwner: 'Dev Shadow Tech', // Your name
+  ownerNumber: '221769325203', //Set your number here without + symbol, just add country code & number without any space
+  giphyApiKey: 'qnl7ssQChTdPjsKta2Ax2LMaGXz303tq',
+  commandMode: "public",
+  maxStoreMessages: 20, 
+  storeWriteInterval: 10000,
+  description: "This is a bot for managing group commands and automating tasks.",
+  version: "4.0.0",
+  updateZipUrl: "https://github.com/Xchristech2/Zenitsu-Bot/archive/refs/heads/main.zip",
+};
+
+module.exports = settings;
