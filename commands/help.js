@@ -19,65 +19,65 @@ async function helpCommand(sock, chatId, message) {
 ◈ ╭───────────────┈
 ◈ │ 🌐 *GENERAL SHADOW*
 
-◈ │ 🔓 .help 
-    🎭 .ping 
-    🤖 .alive
-◈ │ 📜 .news 
-    🌹 .weather .jid
+◈ │ 🔓 .aide 
+    🎭 .statut 
+    🤖 .vivant
+◈ │ 📜 .actus 
+    🌹 .meteo .id
 ◈ ╰───────────────┈
 ◈ ╭───────────────┈
 ◈ │ 🛡️ *ADMIN SHADOW*
 
-◈ │ 🚫 .ban 
-    ☣️ .kick 
-    💿 .mute
-◈ │ 📢 .tagall 
-    👸 .hidetag
+◈ │ 🚫 .interdire 
+    ☣️ .expulser 
+    💿 .muet
+◈ │ 📢 .mentionner 
+    👸 .cachemessage
 ◈ ╰───────────────┈
 ◈ ╭───────────────┈
 ◈ │ 👑 *OWNER SHADOW*
 
 ◈ │ 🔑 .mode 
-    🎭 .update 
-    🥀 .setpp
-◈ │ ⚙️ .settings 
-    👹 .anticall
+    🎭 .maj 
+    🥀 .photopp
+◈ │ ⚙️ .parametres 
+    👹 .antiappel
 ◈ ╰───────────────┈
 ◈ ╭───────────────┈
 ◈ │ 🤖 *IA SHADOW*
 
 ◈ │ 🧠 .gpt 
     🤡 .gemini
-◈ │ 🎨 .imagine 
+◈ │ 🎨 .imaginer 
     👾 .flux
 ◈ ╰───────────────┈
 ◈ ╭───────────────┈
 ◈ │ 📥 *DOWN SHADOW*
 
-◈ │ 🎵 .play 
-    🎼 .song 
+◈ │ 🎵 .jouer 
+    🎼 .musique 
     🎤 .spotify
 ◈ │ 📽️ .video 
-    🎺 .ig 
+    🎺 .instagram 
     ⛓️ .tiktok
 ◈ ╰───────────────┈
 ◈ ╭───────────────┈
 ◈ │ 🎨 *EDITING & SHADOW*
 
 ◈ │ ✨ .remini 
-    ⚰️ .bg 
+    ⚰️ .fond 
     🪓 .neon
-◈ │ 🎭 .glitch 
+◈ │ 🎭 .defaut 
     🧿 .hacker
 ◈ ╰───────────────┈
 ◈ ╭───────────────┈
 ◈ │ ⛩️ ANIME & SHADOW
-◈ │ 🎮 .ttt 
-    🪦 .trivia 
-    🔬 .truth
-◈ │ 🌸 .japan 
-    🪬 .hug 
-    🔮 .kiss
+◈ │ 🎮 .morpion 
+    🪦 .quiz 
+    🔬 .verite
+◈ │ 🌸 .japon 
+    🪬 .calin 
+    🔮 .baiser
 ◈ ╰───────────────┈
 ┏━━━━━━━━━━━━━━━━━━┓
   *🎭CREE PAR DEV SHADOW TECH*
