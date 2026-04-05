@@ -4,20 +4,20 @@ async function aliveCommand(sock, chatId, message) {
     try {
         const aliveMessage = `
 ✨✨━━━━━━━━━━━━✨✨
-🤖 *${settings.botName || "Zenitsu Bot"} is ONLINE!*
+🤖 *${settings.botName || "Dev shadow-md Bot"} is ONLINE!*
 
 🛠 *Version:* ${settings.version || "4.0.0"}
 ⚡ *Status:* Active
 🌐 *Mode:* Public
 
-🌟 *Features:*
-• Group Management & Admin Tools
-• Antilink & Antispam Protection
-• Fun & Game Commands
-• AI & Image Commands
-• And much more!
+🌟 *Bot cree par DEV SHADOW TECH:*
+• *_Je suis DEV SHADOW TECH🎭*_
+• *_EMPREUR DES BANN ETERNELE⚜️*_
+• *_LA LUMUIER ME FUIT🫃🏻*_
+• *_Ainstant bi guél la beugue*_
+• *_KOUMAYE DIAPALÉ GAYI*_!
 
-📌 Type *.menu* to view all commands
+📌 Tape *.menu* pou voire les nouveaux commandes
 ✨✨━━━━━━━━━━━━✨✨
 `;
 
