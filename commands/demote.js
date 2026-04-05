@@ -68,9 +68,9 @@ async function demoteCommand(sock, chatId, mentionedJids, message) {
         await new Promise(resolve => setTimeout(resolve, 1000));
 
         const demotionMessage = `*『 GROUP DEMOTION 』*\n\n` +
-            `👤 *Demoted User${userToDemote.length > 1 ? 's' : ''}:*\n` +
+            `👤 *Denomer User${userToDemote.length > 1 ? 's' : ''}:*\n` +
             `${usernames.map(name => `• ${name}`).join('\n')}\n\n` +
-            `👑 *Demoted By:* @${message.key.participant ? message.key.participant.split('@')[0] : message.key.remoteJid.split('@')[0]}\n\n` +
+            `👑 *ki moko denomer:* @${message.key.participant ? message.key.participant.split('@')[0] : message.key.remoteJid.split('@')[0]}\n\n` +
             `📅 *Date:* ${new Date().toLocaleString()}`;
         
         await sock.sendMessage(chatId, { 
@@ -137,9 +137,9 @@ async function handleDemotionEvent(sock, groupId, participants, author) {
         await new Promise(resolve => setTimeout(resolve, 1000));
 
         const demotionMessage = `*『 GROUP DEMOTION 』*\n\n` +
-            `👤 *Demoted User${participants.length > 1 ? 's' : ''}:*\n` +
+            `👤 *Denomer User${participants.length > 1 ? 's' : ''}:*\n` +
             `${demotedUsernames.map(name => `• ${name}`).join('\n')}\n\n` +
-            `👑 *Demoted By:* ${demotedBy}\n\n` +
+            `👑 *ki moko denomer:* ${demotedBy}\n\n` +
             `📅 *Date:* ${new Date().toLocaleString()}`;
         
         await sock.sendMessage(groupId, {
