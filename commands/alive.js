@@ -27,8 +27,8 @@ async function aliveCommand(sock, chatId, message) {
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363406588763460@newsletter',
-                    newsletterName: settings.botName || 'Zenitsu Bot',
+                    newsletterJid: 'https://whatsapp.com/channel/0029Vb7lAQs4NViqQM8tBj3M',
+                    newsletterName: settings.botName || 'Dev shadow-md Bot',
                     serverMessageId: -1
                 }
             }
