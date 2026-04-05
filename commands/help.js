@@ -4,52 +4,80 @@ const path = require('path');
 
 async function helpCommand(sock, chatId, message) {
     const helpMessage = `
-✨──────────────✨
-        *🤖 ${settings.botName || 'Zenitsu-Bot'}*
+✨───────⚰️───────✨
+        *🤖 ${settings.botName || 'Dev shadow-md-Bot'}*
         Version: *${settings.version || '4.0.0'}*
         Owner: *${settings.botOwner || 'PAPII'}*
         YT: ${global.ytch}
-✨──────────────✨
+✨──────🪦────────✨
 
-🎭 *DEV SHADOW-𝖬𝖣 𝖴𝖫𝖳𝖨𝖬𝖠𝖳𝖤* 🎭
-« 𝖳𝗁𝖾 𝖲𝗁𝖺𝖽𝗈𝗐 𝖤𝗑𝖾𝖼𝗎𝗍𝗂𝗈𝗇 »
+🎭 *𝐁𝐎𝐓 𝐃𝐄𝐕 𝐒𝐇𝐀𝐃𝐎𝐖-𝐌𝐃* 🎭
+«connectez le bot de dev shadow en tout securité»
 ┏━━━━━━━━━━━━━━━━━━┓
-┃  🔱 SHADOW INTERFACE 🔱
+┃  🔱 *DEV SHADOW TECH* 🔱
 ┗━━━━━━━━━━━━━━━━━━┛
 ◈ ╭───────────────┈
-◈ │ 🌐 GENERAL
-◈ │ 🔓 .help .ping .alive
-◈ │ 📜 .news .weather .jid
+◈ │ 🌐 *GENERAL SHADOW*
+
+◈ │ 🔓 .help 
+    🎭 .ping 
+    🤖 .alive
+◈ │ 📜 .news 
+    🌹 .weather .jid
 ◈ ╰───────────────┈
 ◈ ╭───────────────┈
-◈ │ 🛡️ ADMINISTRATION
-◈ │ 🚫 .ban .kick .mute
-◈ │ 📢 .tagall .hidetag
+◈ │ 🛡️ *ADMIN SHADOW*
+
+◈ │ 🚫 .ban 
+    ☣️ .kick 
+    💿 .mute
+◈ │ 📢 .tagall 
+    👸 .hidetag
 ◈ ╰───────────────┈
 ◈ ╭───────────────┈
-◈ │ 👑 OWNER PRIVILEGE
-◈ │ 🔑 .mode .update .setpp
-◈ │ ⚙️ .settings .anticall
+◈ │ 👑 *OWNER SHADOW*
+
+◈ │ 🔑 .mode 
+    🎭 .update 
+    🥀 .setpp
+◈ │ ⚙️ .settings 
+    👹 .anticall
 ◈ ╰───────────────┈
 ◈ ╭───────────────┈
-◈ │ 🤖 ARTIFICIAL INTEL
-◈ │ 🧠 .gpt .gemini
-◈ │ 🎨 .imagine .flux
+◈ │ 🤖 *IA SHADOW*
+
+◈ │ 🧠 .gpt 
+    🤡 .gemini
+◈ │ 🎨 .imagine 
+    👾 .flux
 ◈ ╰───────────────┈
 ◈ ╭───────────────┈
-◈ │ 📥 DOWNLOADER
-◈ │ 🎵 .play .song .spotify
-◈ │ 📽️ .video .ig .tiktok
+◈ │ 📥 *DOWN SHADOW*
+
+◈ │ 🎵 .play 
+    🎼 .song 
+    🎤 .spotify
+◈ │ 📽️ .video 
+    🎺 .ig 
+    ⛓️ .tiktok
 ◈ ╰───────────────┈
 ◈ ╭───────────────┈
-◈ │ 🎨 EDITING & TEXT
-◈ │ ✨ .remini .bg .neon
-◈ │ 🎭 .glitch .hacker
+◈ │ 🎨 *EDITING & SHADOW*
+
+◈ │ ✨ .remini 
+    ⚰️ .bg 
+    🪓 .neon
+◈ │ 🎭 .glitch 
+    🧿 .hacker
 ◈ ╰───────────────┈
 ◈ ╭───────────────┈
-◈ │ ⛩️ ANIME & GAMES
-◈ │ 🎮 .ttt .trivia .truth
-◈ │ 🌸 .japan .hug .kiss
+◈ │ ⛩️ ANIME & SHADOW
+◈ │ 🎮 .ttt 
+    🪦 .trivia 
+    🔬 .truth
+◈ │ 🌸 .japan 
+    🪬 .hug 
+    🔮 .kiss
 ◈ ╰───────────────┈
 ┏━━━━━━━━━━━━━━━━━━┓
   *🎭CREE PAR DEV SHADOW TECH*
@@ -70,7 +98,7 @@ async function helpCommand(sock, chatId, message) {
                     forwardingScore: 1,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '',
+                        newsletterJid: 'https://whatsapp.com/channel/0029Vb7lAQs4NViqQM8tBj3M',
                         newsletterName: 'Dev shadow-md Bot',
                         serverMessageId: -1
                     }
@@ -83,7 +111,7 @@ async function helpCommand(sock, chatId, message) {
                     forwardingScore: 1,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '',
+                        newsletterJid: 'https://whatsapp.com/channel/0029Vb7lAQs4NViqQM8tBj3M',
                         newsletterName: 'Dev shadow-md Bot by PAPII',
                         serverMessageId: -1
                     }
