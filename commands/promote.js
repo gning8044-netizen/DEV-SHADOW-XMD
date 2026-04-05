@@ -34,9 +34,9 @@ async function promoteCommand(sock, chatId, mentionedJids, message) {
         const promoterJid = sock.user.id;
         
         const promotionMessage = `*『 GROUP PROMOTION 』*\n\n` +
-            `👥 *Promoted User${userToPromote.length > 1 ? 's' : ''}:*\n` +
+            `👥 *Nommé User${userToPromote.length > 1 ? 's' : ''}:*\n` +
             `${usernames.map(name => `• ${name}`).join('\n')}\n\n` +
-            `👑 *Promoted By:* @${promoterJid.split('@')[0]}\n\n` +
+            `👑 *Ki moko nommé :* @${promoterJid.split('@')[0]}\n\n` +
             `📅 *Date:* ${new Date().toLocaleString()}`;
         await sock.sendMessage(chatId, { 
             text: promotionMessage,
@@ -79,9 +79,9 @@ async function handlePromotionEvent(sock, groupId, participants, author) {
         }
 
         const promotionMessage = `*『 GROUP PROMOTION 』*\n\n` +
-            `👥 *Promoted User${participants.length > 1 ? 's' : ''}:*\n` +
+            `👥 *nommé User${participants.length > 1 ? 's' : ''}:*\n` +
             `${promotedUsernames.map(name => `• ${name}`).join('\n')}\n\n` +
-            `👑 *Promoted By:* ${promotedBy}\n\n` +
+            `👑 *ki moko nommé :* ${promotedBy}\n\n` +
             `📅 *Date:* ${new Date().toLocaleString()}`;
         
         await sock.sendMessage(groupId, {
