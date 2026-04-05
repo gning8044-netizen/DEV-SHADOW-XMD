@@ -7,7 +7,7 @@ async function helpCommand(sock, chatId, message) {
 ✨──────────────✨
         *🤖 ${settings.botName || 'Zenitsu-Bot'}*
         Version: *${settings.version || '4.0.0'}*
-        Owner: *${settings.botOwner || 'Chris Gaaju'}*
+        Owner: *${settings.botOwner || 'PAPII'}*
         YT: ${global.ytch}
 ✨──────────────✨
 
@@ -52,9 +52,9 @@ async function helpCommand(sock, chatId, message) {
 ◈ │ 🌸 .japan .hug .kiss
 ◈ ╰───────────────┈
 ┏━━━━━━━━━━━━━━━━━━┓
-  *DEV SHADOW TECH*
+  *🎭CREE PAR DEV SHADOW TECH*
 ┗━━━━━━━━━━━━━━━━━━┛
-✨ Join our channel for updates!
+✨ ne rejoindre pas mon chaine!
 `;
 
     try {
@@ -70,8 +70,8 @@ async function helpCommand(sock, chatId, message) {
                     forwardingScore: 1,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363406588763460@newsletter',
-                        newsletterName: 'Zenitsu Bot',
+                        newsletterJid: '',
+                        newsletterName: 'Dev shadow-md Bot',
                         serverMessageId: -1
                     }
                 }
@@ -83,8 +83,8 @@ async function helpCommand(sock, chatId, message) {
                     forwardingScore: 1,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363406588763460@newsletter',
-                        newsletterName: 'Zenitsu Bot by Chris Gaaju',
+                        newsletterJid: '',
+                        newsletterName: 'Dev shadow-md Bot by PAPII',
                         serverMessageId: -1
                     }
                 }
