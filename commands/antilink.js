@@ -28,13 +28,13 @@ async function handleAntilinkCommand(sock, chatId, userMessage, senderId, isSend
                 }
                 const result = await setAntilink(chatId, 'on', 'delete');
                 await sock.sendMessage(chatId, { 
-                    text: result ? '*_Antilink papii est ACTIVÉ_*' : '*_Failed to turn on Antilink_*' 
+                    text: result ? '*_Antilink ད𝑄𝑈𝐸𝐸𝑁 𝑀𝐸𝑅𝐴 est ACTIVÉ_*' : '*_Failed to turn on Antilink_*' 
                 },{ quoted: message });
                 break;
 
             case 'off':
                 await removeAntilink(chatId, 'on');
-                await sock.sendMessage(chatId, { text: '*_Antilink papii est DESACTIVER_*' }, { quoted: message });
+                await sock.sendMessage(chatId, { text: '*_Antilink ད𝑄𝑈𝐸𝐸𝑁 𝑀𝐸𝑅𝐴 est DESACTIVER_*' }, { quoted: message });
                 break;
 
             case 'set':
