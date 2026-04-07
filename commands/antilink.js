@@ -23,7 +23,7 @@ async function handleAntilinkCommand(sock, chatId, userMessage, senderId, isSend
             case 'on':
                 const existingConfig = await getAntilink(chatId, 'on');
                 if (existingConfig?.enabled) {
-                    await sock.sendMessage(chatId, { text: '*_Antilink is already on_*' }, { quoted: message });
+                    await sock.sendMessage(chatId, { text: '*_ད𝑄𝑈𝐸𝐸𝑁 𝑀𝐸𝑅𝐴-𝑀𝐷 is already on_*' }, { quoted: message });
                     return;
                 }
                 const result = await setAntilink(chatId, 'on', 'delete');
