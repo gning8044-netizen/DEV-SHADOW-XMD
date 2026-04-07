@@ -31,7 +31,7 @@ async function pingCommand(sock, chatId, message) {
 
         // Minimal output
         const botInfo = `
-𝐃𝐄𝐕 𝐒𝐇𝐀𝐃𝐎𝐖-𝐌𝐃 🤖
+ད𝑄𝑈𝐸𝐸𝑁 𝑀𝐸𝑅𝐴-𝑀𝐷 👑
 
 ⚡ Ping : ${ping} ms
 ⏱️ Uptime : ${uptimeFormatted}
