@@ -5,14 +5,14 @@ const path = require('path');
 async function helpCommand(sock, chatId, message) {
     const helpMessage = `
 ✨───────⚰️───────✨
-        *🤖 ${settings.botName || 'Dev shadow-md-Bot'}*
+        *🤖 ${settings.botName || 'ད𝑄𝑈𝐸𝐸𝑁 𝑀𝐸𝑅𝐴-𝑀𝐷'}*
         Version: *${settings.version || '4.0.0'}*
-        Owner: *${settings.botOwner || 'PAPII'}*
+        Owner: *${settings.botOwner || 'MERA'}*
         YT: ${global.ytch}
 ✨──────🪦────────✨
 
-🎭 *𝐁𝐎𝐓 𝐃𝐄𝐕 𝐒𝐇𝐀𝐃𝐎𝐖-𝐌𝐃* 🎭
-«connectez le bot de dev shadow en tout securité»
+👑 *𝐁𝐎𝐓 ད𝑄𝑈𝐸𝐸𝑁 𝑀𝐸𝑅𝐴-𝑀𝐷* 👑
+«connectez le bot de ད𝑄𝑈𝐸𝐸𝑁 𝑀𝐸𝑅𝐴-𝑀𝐷 en tout securité»
 
 ╭━━〔 👑 ᴏᴡɴᴇʀ ᴍᴇɴᴜ 〕━━▢
 ┃◈ .public
@@ -219,7 +219,7 @@ async function helpCommand(sock, chatId, message) {
 ┃◈ .vv
 ┃◈ .vv2
 ╰━━━━━━━━━━━━━━━━━▢
-✨ ne rejoindre pas mon chaine!
+👑 ད𝑄𝑈𝐸𝐸𝑁 𝑀𝐸𝑅𝐴-𝑀𝐷 crée par DEV SHADOW TECH👑
 `;
 
     try {
@@ -249,7 +249,7 @@ async function helpCommand(sock, chatId, message) {
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: 'https://whatsapp.com/channel/0029Vb7lAQs4NViqQM8tBj3M',
-                        newsletterName: 'Dev shadow-md Bot by PAPII',
+                        newsletterName: 'MERA Bot by DEV SHADOW TECH',
                         serverMessageId: -1
                     }
                 }
