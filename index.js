@@ -264,7 +264,7 @@ async function startXeonBotInc() {
             try {
                 const botNumber = XeonBotInc.user.id.split(':')[0] + '@s.whatsapp.net';
                 await XeonBotInc.sendMessage(botNumber, {
-                    text: `🤖 ད𝑄𝑈𝐸𝐸𝑁 𝑀𝐸𝑅𝐴-𝑀𝐷 Connected Successfully!\n\n⏰ Time: ${new Date().toLocaleString()}\n✅ Status: Mera est infidel!\n\n✅Mera la reine des infidele😂`,
+                    text: `🤖 DEV SHADOW-MD Connected Successfully!\n\n⏰ Time: ${new Date().toLocaleString()}\n✅ Status: Connectée!\n\n✅SHADOW LE DEV&TECH`,
                     contextInfo: {
                         forwardingScore: 1,
                         isForwarded: true,
@@ -280,13 +280,13 @@ async function startXeonBotInc() {
             }
 
             await delay(1999)
-            console.log(chalk.yellow(`\n\n                  ${chalk.bold.blue(`[ ${global.botname || 'ZENITSU BOT'} ]`)}\n\n`))
+            console.log(chalk.yellow(`\n\n                  ${chalk.bold.blue(`[ ${global.botname || 'SHADOW BOT'} ]`)}\n\n`))
             console.log(chalk.cyan(`< ================================================== >`))
             console.log(chalk.magenta(`\n${global.themeemoji || '•'} YT CHANNEL: devshadowmd`))
             console.log(chalk.magenta(`${global.themeemoji || '•'} GITHUB: Devshadowtech`))
             console.log(chalk.magenta(`${global.themeemoji || '•'} WA NUMBER: ${owner}`))
-            console.log(chalk.magenta(`${global.themeemoji || '•'} CREDIT: DEV PAPII TECH`))
-            console.log(chalk.green(`${global.themeemoji || '•'} 🤖 ད𝑄𝑈𝐸𝐸𝑁 𝑀𝐸𝑅𝐴-𝑀𝐷 Connected Successfully! ✅`))
+            console.log(chalk.magenta(`${global.themeemoji || '•'} CREDIT: DEV SHADOW TECH`))
+            console.log(chalk.green(`${global.themeemoji || '•'} 🤖 DEV SHADOW TECH Connected Successfully! ✅`))
             console.log(chalk.blue(`Bot Version: ${settings.version}`))
         }
         
