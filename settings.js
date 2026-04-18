@@ -1,7 +1,7 @@
 const settings = {
   packname: 'Dev shadow-md Bot',
   author: '‎',
-  botName: "ད𝑄𝑈𝐸𝐸𝑁 𝑀𝐸𝑅𝐴-𝑀𝐷",
+  botName: "DEV SHADOW-MD",
   botOwner: 'Dev Shadow Tech', // Your name
   ownerNumber: '221769325203', //Set your number here without + symbol, just add country code & number without any space
   giphyApiKey: 'qnl7ssQChTdPjsKta2Ax2LMaGXz303tq',
