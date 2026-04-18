@@ -4,16 +4,16 @@ async function aliveCommand(sock, chatId, message) {
     try {
         const aliveMessage = `
 ✨✨━━━━━━━━━━━━✨✨
-🤖 *${settings.botName || "ད𝑄𝑈𝐸𝐸𝑁 𝑀𝐸𝑅𝐴-𝑀𝐷"} is ONLINE!*
+🤖 *${settings.botName || "DEV SHADOW-MD"} is ONLINE!*
 
-🛠 *Version:* ${settings.version || "4.0.0"}
+🛠 *Version:* ${settings.version || "6.0.0"}
 ⚡ *Status:* Active
 🌐 *Mode:* Public
 
 🌟 *Bot cree par DEV SHADOW TECH:*
-• *_JE SUIS QUEEN MERA🎭*_
-• *_LA REINE SUPPREME DES INFIDEL⚜️*_
-• *_JE SUIS INFIDEL
+• *SHADOW LE DEV & TECH*
+• *CONNECTÉ A TOUS MOMENT⚜️*
+• *DEV SHADOW TECH IS BACK*
 
 📌 Tape *.menu* pou voire les nouveaux commandes
 ✨✨━━━━━━━━━━━━✨✨
@@ -26,7 +26,7 @@ async function aliveCommand(sock, chatId, message) {
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: 'https://whatsapp.com/channel/0029Vb7lAQs4NViqQM8tBj3M',
-                    newsletterName: settings.botName || 'ད𝑄𝑈𝐸𝐸𝑁 𝑀𝐸𝑅𝐴-𝑀𝐷',
+                    newsletterName: settings.botName || 'DEV SHADOW-MD',
                     serverMessageId: -1
                 }
             }
