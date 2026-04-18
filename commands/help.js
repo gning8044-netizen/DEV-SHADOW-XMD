@@ -5,14 +5,14 @@ const path = require('path');
 async function helpCommand(sock, chatId, message) {
     const helpMessage = `
 ✨───────⚰️───────✨
-        *🤖 ${settings.botName || 'ད𝑄𝑈𝐸𝐸𝑁 𝑀𝐸𝑅𝐴-𝑀𝐷'}*
-        Version: *${settings.version || '4.0.0'}*
-        Owner: *${settings.botOwner || 'MERA'}*
+        *🤖 ${settings.botName || 'DEV SHADOW-MD'}*
+        Version: *${settings.version || '6.0.0'}*
+        Owner: *${settings.botOwner || 'DEV SHADOW-TECH'}*
         YT: ${global.ytch}
 ✨──────🪦────────✨
 
-👑 *𝐁𝐎𝐓 ད𝑄𝑈𝐸𝐸𝑁 𝑀𝐸𝑅𝐴-𝑀𝐷* 👑
-«connectez le bot de ད𝑄𝑈𝐸𝐸𝑁 𝑀𝐸𝑅𝐴-𝑀𝐷 en tout securité»
+👑 *BOT SHADOW-TECH* 👑
+«connectez le bot de DEV SHADOW-TECH en tout securité»
 
 ╭━━〔 👑 ᴏᴡɴᴇʀ ᴍᴇɴᴜ 〕━━▢
 ┃◈ .public
@@ -219,7 +219,7 @@ async function helpCommand(sock, chatId, message) {
 ┃◈ .vv
 ┃◈ .vv2
 ╰━━━━━━━━━━━━━━━━━▢
-👑 ད𝑄𝑈𝐸𝐸𝑁 𝑀𝐸𝑅𝐴-𝑀𝐷 crée par DEV SHADOW TECH👑
+👑 DEV SHADOW-MD crée par DEV SHADOW TECH👑
 `;
 
     try {
@@ -249,7 +249,7 @@ async function helpCommand(sock, chatId, message) {
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: 'https://whatsapp.com/channel/0029Vb7lAQs4NViqQM8tBj3M',
-                        newsletterName: 'MERA Bot by DEV SHADOW TECH',
+                        newsletterName: 'DEV SHADOW-MD Bot by DEV SHADOW TECH',
                         serverMessageId: -1
                     }
                 }
