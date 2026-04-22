@@ -73,7 +73,7 @@ setInterval(() => {
 let phoneNumber = "221769325203"
 let owner = JSON.parse(fs.readFileSync('./data/owner.json'))
 
-global.botname = DEV SHADOW-MD"
+global.botname = ZENITSU"
 global.themeemoji = "•"
 const pairingCode = !!phoneNumber || process.argv.includes("--pairing-code")
 const useMobile = process.argv.includes("--mobile")
